@@ -1,0 +1,51 @@
+/**
+* 2010-2021 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through LICENSE.txt file inside our module
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to CustomizationPolicy.txt file inside our module for more information.
+*
+* @author Webkul IN
+* @copyright 2010-2021 Webkul IN
+* @license LICENSE.txt
+*/
+
+#dashperformance .stats-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#dashperformance .stats-wrap > div {
+    margin-bottom: 20px;
+}
+
+#dashperformance .stat-box {
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.25s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#dashperformance .stat-box:hover {
+    cursor: pointer;
+    transform: translate(0, -3px);
+}
+
+#dashperformance .stat-box .value-wrapper {
+    font-size: 18px;
+    font-weight: 700;
+}

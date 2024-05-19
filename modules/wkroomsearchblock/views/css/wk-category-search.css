@@ -1,0 +1,64 @@
+/**
+* 2010-2020 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2020 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+.header-rmsearch-wrapper {
+  background: #1A4060;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.16);
+  padding: 15px 20px;}
+  .header-rmsearch-wrapper .filter_header {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 25px;}
+    .header-rmsearch-wrapper .filter_header p {
+    margin-bottom: 2px;}
+    .header-rmsearch-wrapper .filter_header .header-bottom-hr {
+      width: 22px;
+      float: left;
+      margin-top: 0px;
+      border-top: 3px solid #FFF;}
+  .header-rmsearch-wrapper #search_hotel_block_form {
+    grid-template-columns: 1fr;
+  }
+  .header-rmsearch-wrapper #search_hotel_block_form #daterange_value.grid {
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 1fr;
+  }
+  #search_hotel_block_form .header-rmsearch-input {
+    height: unset;
+    min-height: 45px;
+  }
+  #search_hotel_block_form #search_room_submit {
+    height: unset;
+    min-height: 45px;
+  }
+  /* #search_hotel_block_form #search_room_submit {
+    height: 45px;
+  } */
+  #search_hotel_block_form {
+    grid-template-columns: 1fr;
+  }
+  #search_hotel_block_form > div {
+    grid-column-end: unset!important;
+    grid-column: unset!important;}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-rmsearch-wrapper {
+    padding: 10px 5px;}
+
+}

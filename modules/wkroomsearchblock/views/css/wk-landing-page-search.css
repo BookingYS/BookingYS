@@ -1,0 +1,81 @@
+/**
+* 2010-2020 Webkul.
+*
+* NOTICE OF LICENSE
+*
+* All right is reserved,
+* Please go through this link for complete license : https://store.webkul.com/license.html
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this module to newer
+* versions in the future. If you wish to customize this module for your
+* needs please refer to https://store.webkul.com/customisation-guidelines/ for more information.
+*
+*  @author    Webkul IN <support@webkul.com>
+*  @copyright 2010-2020 Webkul IN
+*  @license   https://store.webkul.com/license.html
+*/
+
+
+.header-rmsearch-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;}
+
+.header-rmsearch-hide-xs {
+  background-image: url("../img/black-opacity-5.png");}
+.header-rmsearch-show-xs {
+  background-color: #ffffff;
+  top: 0;}
+.header-rmsearch-wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;}
+.header-rmsearch-primary {
+  display: table-cell;
+  vertical-align: middle;}
+.header-rmsearch-inner-wrapper {
+  margin-top: 30px;
+  margin-bottom: 15px;}
+#make_booking_btn {
+  background-color: #BF9958;
+  width: 155px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;}
+#make_booking_btn_div {
+  margin-top: 20px;
+  text-align: center;}
+@media (max-width: 767px) {
+  .header-rmsearch-wrapper #search_hotel_block_form.grid {
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+  }
+  .header-rmsearch-wrapper {
+    height: calc(100vw - 60px);
+    width: calc(100vw - 60px);
+  }
+}
+.fancy_search_header_xs {
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  font-size: 22px;}
+.fancy_search_header_xs hr {
+    border: 1px solid #379bf0;
+    float: left;
+    margin-top: 5px;
+    width: 125px;}
+  #search_hotel_block_form #search_room_submit {
+    height: unset;
+    min-height: 45px;
+  }
+/* .fancybox-inner #search_hotel_block_form {
+  grid-template-columns: 1fr;
+} */
